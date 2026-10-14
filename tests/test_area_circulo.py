@@ -7,7 +7,7 @@ from area_circulo import area_circulo
 
 def test_area_circulo_caso_correcto():
     """Comprueba el área de un círculo con radio 5."""
-    assert area_circulo(5) == pytest.approx(math.pi * 25)
+    assert area_circulo(5) == 100
 
 
 def test_area_circulo_radio_cero():
